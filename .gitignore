@@ -53,3 +53,23 @@ dkms.conf
 
 # debug information files
 *.dwo
+
+# ===== Keil MDK =====
+*.uvguix.*
+*.uvoptx
+*.bak
+*.dep
+*.crf
+*.o
+*.d
+*.lst
+*.hex
+Objects/
+Listings/
+RTE/
+DebugConfig/
+# ===== STM32CubeIDE =====
+Debug/
+Release/
+.settings/
+*.launch
